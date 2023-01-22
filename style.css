@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+padding: 20px;
+width: 400px;
+box-shadow: 0 0px 12px rgba(0, 0, 0, 0.288);
+border-radius: 5px;
+}
+select{
+    width: 100%;
+    border: solid 1px rgb(3, 141, 255);
+    padding: 10px;
+    color: rgb(3, 141, 255);
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+label{
+    font-size: 1.2rem;
+}
+.form > .genrate-box{
+padding: 10px;
+}
+.form > .genrate-box > button{
+    padding: 10px;
+    border: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.527);
+}
+.form > .genrate-box > button:nth-child(even){
+    background-color: red;
+}
+.form > .genrate-box > p{
+    text-align: center;
+    padding: 20px;
+    border: solid 1px rgb(3, 141, 255);
+    margin-top: 20px;
+    letter-spacing: 2;
+    user-select: all;
+}
